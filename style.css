@@ -90,7 +90,7 @@ body {
 }
 
 .name_h2 { 
-	color:var(--dark-grayish-blue);	
+	color:var(--very-dark-desaturated-blue);	
 	font-family: 'Kumbh Sans';	
 	font-size:18px;
     font-weight: 700;
@@ -121,16 +121,81 @@ body {
     -o-border-radius: 0px 0px 16px 16px;
 }
 
+.innerr_stats  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
 
+.second {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.eighty-k {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.eight-o-threek {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.one-fourk {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.followers {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.likes {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.photos {
+    font-size: 12px;
+    font-weight: 400;
+}
 	
 
 
 
 
-.attribution { 
-    font-size: 11px; text-align: center; 
+footer {
+        position: fixed;
+        bottom: 0;
+        max-width: 100%;
+        height: 5%;
+        margin-top: auto;
+        /* Height of the footer */
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+
+.attribution {
+    color: black;
+}
+.attribution a {
+    color: hsl(266, 66%, 37%);
+    margin-right: 25px;
 }
