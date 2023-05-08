@@ -94,6 +94,7 @@ body {
 	font-family: 'Kumbh Sans';	
 	font-size:18px;
     font-weight: 700;
+    margin-right: 8px;
     	
 }
 
@@ -106,14 +107,14 @@ body {
 
 .london { 	
 	font-family:Kumbh Sans;	
-	font-size:16px;	
+	font-size:14px;	
     margin: 10px 0px 24px 0px;
 }
 
 .line_break {     
     background: #FEFEFE;
-    padding: 16px 33px 24px 33px;
-    border-top: 1px solid rgba(150, 150, 150, 0.5);
+    padding: 16px 40px 24px 40px;
+    border-top: 1px solid rgba(150, 150, 150, 0.209);
     border-radius: 0px 0px 16px 16px;
     -webkit-border-radius: 0px 0px 16px 16px;
     -moz-border-radius: 0px 0px 16px 16px;
