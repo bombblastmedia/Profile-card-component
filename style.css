@@ -1,9 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 
 
-*:root {    
+*:root {
     --dark-cyan: hsl(185, 75%, 39%);
     --very-dark-desaturated-blue: hsl(229, 23%, 23%);
     --dark-grayish-blue: hsl(227, 10%, 46%);
@@ -27,12 +26,12 @@ html {
 
 body {
     margin: 0;
-    padding: 0; 
-    color: var(--dark-gray); 
+    padding: 0;
+    color: var(--dark-gray);
     background-color: var(--dark-cyan);
     background-image: url('/images/bg-pat-top.svg'), url('/images/bg-pat-bottom.svg');
-    background-repeat: no-repeat, no-repeat;  
-    background-position: right 48vw bottom 40vh, left 45vw top 44vh;               
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
     font-family: 'kumbu sans', 'Josefin', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.3;
     overflow-x: hidden;
@@ -52,7 +51,7 @@ body {
     -moz-border-radius: 16px 16px 0px 0px;
     -ms-border-radius: 16px 16px 0px 0px;
     -o-border-radius: 16px 16px 0px 0px;
-    
+
 }
 
 .profile_image_container {
@@ -61,57 +60,57 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: -60px;
-    
+
 }
 
 .profile_image_container img {
-	border-radius:31.25em;
-	width:6em;
-	border:5px solid rgba(255, 255, 255, 1);
-	left: calc(50% - 96px/2);
-	-webkit-border-radius:31.25emx;
-	-moz-border-radius:31.25emx;
-	-ms-border-radius:31.25emx;
-	-o-border-radius:31.25emx;
+    border-radius: 31.25em;
+    width: 6em;
+    border: 5px solid rgba(255, 255, 255, 1);
+    left: calc(50% - 96px/2);
+    -webkit-border-radius: 31.25emx;
+    -moz-border-radius: 31.25emx;
+    -ms-border-radius: 31.25emx;
+    -o-border-radius: 31.25emx;
 }
 
-.card_container { 
-	background-color:rgba(255, 255, 255, 1);
-	width: 21.875em;
+.card_container {
+    background-color: rgba(255, 255, 255, 1);
+    width: 21.875em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -51px;	
+    margin-top: -51px;
 }
 
 .container_name_age {
-    padding-top: 70px;	
+    padding-top:  4.375em;
 }
 
-.name_h2 { 
-	color:var(--very-dark-desaturated-blue);	
-	font-family: 'Kumbh Sans';	
-	font-size:18px;
+.name_h2 {
+    color: var(--very-dark-desaturated-blue);
+    font-family: 'Kumbh Sans';
+    font-size: 1.1rem;
     font-weight: 700;
-    margin-right: 8px;
-    	
+    margin-right: 0.5em;
+
 }
 
-.age { 
-	
-	font-family: 'Kumbh Sans';	
-	font-size:18px;
-    font-weight: 400;	
+.age {
+
+    font-family: 'Kumbh Sans';
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
-.london { 	
-	font-family:Kumbh Sans;	
-	font-size:14px;	
+.london {
+    font-family: Kumbh Sans;
+    font-size: 0.9rem;
     margin: 10px 0px 24px 0px;
 }
 
-.line_break {     
+.line_break {
     background: #FEFEFE;
     padding: 16px 40px 24px 40px;
     border-top: 1px solid rgba(150, 150, 150, 0.209);
@@ -122,7 +121,7 @@ body {
     -o-border-radius: 0px 0px 16px 16px;
 }
 
-.innerr_stats  {
+.innerr_stats {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -132,70 +131,68 @@ body {
 .first {
     display: flex;
     flex-direction: column;
-    text-align: center;    
+    text-align: center;
 }
 
 .second {
     display: flex;
     flex-direction: column;
-    text-align: center;    
+    text-align: center;
 }
 
 .third {
     display: flex;
     flex-direction: column;
-    text-align: center;    
+    text-align: center;
 }
 
 .eighty-k {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--very-dark-desaturated-blue);
 }
 
 .eight-o-threek {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--very-dark-desaturated-blue);
 }
 
 .one-fourk {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--very-dark-desaturated-blue);
 }
 
 .followers {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
 }
 
 .likes {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
 }
 
 .photos {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
 }
-	
-
-
 
 
 footer {
-        position: fixed;
-        bottom: 0;
-        max-width: 100%;
-        height: 5%;
-        margin-top: auto;
-        /* Height of the footer */
+    position: fixed;
+    bottom: 0;
+    max-width: 100%;
+    height: 5%;
+    margin-top: auto;
+    /* Height of the footer */
 }
 
 .attribution {
     color: black;
 }
+
 .attribution a {
     color: hsl(266, 66%, 37%);
     margin-right: 25px;
